@@ -1,5 +1,4 @@
 .center {
-	margin: auto;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -64,7 +63,7 @@
 	background: #F2E9DF;
 	height: 15%;
 	width: 10%;
-	margin-top: 10%;
+	margin-top: 12%;
 	border-radius: 40%;
 }
 
@@ -96,5 +95,28 @@
 }
 
 .mouth {
+	overflow: hidden;
+	height: 20%;
+	width: 100%;
+	margin-top: 37%;
+}
 
+.mouth:before {
+	content: "";
+	display: block;
+	background: black;
+	height: 200%;
+	width: 50%;
+	margin: -25% 25%;
+	border-radius: 100%;
+}
+
+.mouth:after {
+	content: "";
+	display: block;
+	background: red;
+	height: 48%;
+	width: 27%;
+	margin: 15% 36.5%;
+	border-radius: 75%;
 }
