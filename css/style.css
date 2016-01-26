@@ -13,50 +13,76 @@
 }
 
 .hair {
+	overflow: hidden;
+	height: 35%;
+	width: 100%;
+}
 
+.hair:before {
+	content: "";
+	display: block;
+	background: #592d0d;
+	height: 235%;
+	width: 100%;
+	border-radius: 100%;
+}
+
+.hair:after {
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 50px solid #FAF0E6;
+	margin-top: -60%;
+	margin-left: 70%;
 }
 
 .eyes {
-	height: 22%;
+	height: 25%;
 	width: 100%;
 }
 
 .eye {
 	background: white;
 	height: 100%;
-	width: 30%;
+	width: 25%;
 	border-radius: 100%;
+	border-style: solid solid none;
+	border-width: 7px 0 0;
 	float: left;
 }
 
 .eye:first-of-type {
-	margin-left: 12%;
+	margin-left: 16%;
 }
 
 .eye:last-of-type {
-	margin-left: 15%;
+	margin-left: 18%;
 }
 
 .eye:before {
 	content: "";
 	display: block;
-	background: black;
-	height: 5%;
-	width: 50%;
-	margin: -15% 25%;
-	border-radius: 25%;
+	height: 20%;
+	width: 75%;
+	margin: -20% 15%;
+	border-top: 6px solid black;
+	border-radius: 100%;
 }
 
 .eye:after {
 	content: '\2022';
-	font-size: 100px;
+	font-size: 75px;
 	text-align: center;
 	display: block;
-	background: #87CEFA;
-	height: 100%;
-	width: 70%;
-	margin: 27% 15%;
+	background: #8c6027;
+	height: 75%;
+	width: 65%;
+	margin: 35% 15%;
 	border-radius: 100%;
+	border: 3px solid #592d0d;
 }
 
 .nose {
@@ -104,7 +130,7 @@
 .mouth:before {
 	content: "";
 	display: block;
-	background: black;
+	background: #5d091a;
 	height: 200%;
 	width: 50%;
 	margin: -25% 25%;
@@ -114,7 +140,7 @@
 .mouth:after {
 	content: "";
 	display: block;
-	background: red;
+	background: #ee4466;
 	height: 48%;
 	width: 27%;
 	margin: 15% 36.5%;
